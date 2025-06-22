@@ -1,12 +1,58 @@
-# React + Vite
+# 🏙️ Lone Town – Intelligent Matchmaking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Lone Town** is a mindful dating platform that eliminates swipe fatigue by offering just **one deeply compatible match per day**. Designed for meaningful connections, not superficial swiping, this project focuses on emotional intelligence, psychological compatibility, and intentionality in dating.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+- 🌐 Frontend: [https://lone-town-client.vercel.app](https://lone-town-client.vercel.app)
+- 🔌 Backend: [https://lone-town-server.onrender.com](https://lone-town-server.onrender.com)
+- 📁 GitHub:
+  - [Frontend Repo](https://github.com/akshayvarma121/lone-town-client)
+  - [Backend Repo](https://github.com/akshayvarma121/lone-town-server)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Key Features
+
+###  Intelligent Matchmaking
+- Daily **one-match-only** system
+- Based on **emotional, behavioral, psychological compatibility**
+- No parallel dating: one connection at a time
+
+### Pin/Unpin Mechanism
+- Matches are **pinned by default**
+- **Unpin** triggers a 24-hour freeze
+- Other user gets feedback + new match after 2 hours
+
+###  Real-Time Chat
+- Built with **Socket.io**
+- Chat unlocks only when match is pinned
+- ** Milestone**: After 100 messages in 48h → Video Call unlocks
+
+### Freeze Period & Feedback System
+- 24h reflection freeze logic
+- Feedback on why previous match didn't work
+
+### Firebase Integration
+- Firestore used to store match data, feedback, and milestones
+
+---
+
+##  Tech Stack
+
+| Frontend         | Backend         | Database           | Real-time Engine |
+|------------------|------------------|---------------------|------------------|
+| React + Vite + Tailwind CSS | Node.js + Express.js | Firebase Firestore | Socket.io |
+
+---
+
+## How to Run
+
+###  Frontend
+
+```bash
+cd client
+npm install
+npm run dev
