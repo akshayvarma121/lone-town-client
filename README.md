@@ -69,12 +69,6 @@ node index.js
 👤 Author
 Made  by Akshay Varma
 
-🔗 Portfolio
-
-💼 LinkedIn
-
-💻 GitHub
-
 📢 Recruiter Note
 This project was built as part of a technical assessment and is production-ready. It highlights full-stack development skills, real-time communication, Firebase integration, user state management, and thoughtful user experience design.
 
