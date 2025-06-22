@@ -56,11 +56,14 @@
 cd client
 npm install
 npm run dev
-
+```
 ###  backend
+
+```bash
 cd server
 npm install
 node index.js
+```
 
 
 👤 Author
