@@ -56,3 +56,27 @@
 cd client
 npm install
 npm run dev
+
+###  backend
+cd server
+npm install
+node index.js
+
+
+👤 Author
+Made  by Akshay Varma
+
+🔗 Portfolio
+
+💼 LinkedIn
+
+💻 GitHub
+
+📢 Recruiter Note
+This project was built as part of a technical assessment and is production-ready. It highlights full-stack development skills, real-time communication, Firebase integration, user state management, and thoughtful user experience design.
+
+⭐ Support
+If you liked this project:
+
+Give it a ⭐ on GitHub
+
